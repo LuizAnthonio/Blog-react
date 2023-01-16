@@ -100,7 +100,7 @@ function App() {
 
         <div className='pesquisar'>
 
-          <input type="search" name="pesquisar" value={busca} onChange={(e) => setBusca(e.target.value)}/>
+          <input type="search" name="pesquisar" placeholder='Pesquise o seu interesse aqui!' value={busca} onChange={(e) => setBusca(e.target.value)}/>
           <button>Pesquisar</button>
 
         </div>
